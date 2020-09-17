@@ -1,0 +1,1 @@
+&{template:swn-default} {{title= Random Attributes}} {{Str=[[3d6]]}} {{Dex=[[3d6]]}} {{Con=[[3d6]]}} {{Int=[[3d6]]}} {{Wis=[[3d6]]}} {{Cha=[[3d6]]}}

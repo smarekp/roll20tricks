@@ -1,0 +1,1 @@
+&{template:default} {{title= Random Attributes}} {{Str=[[4d6dl1]]}} {{Dex=[[4d6dl1]]}} {{Con=[[4d6dl1]]}} {{Int=[[4d6dl1]]}} {{Wis=[[4d6dl1]]}} {{Cha=[[4d6dl1]]}}

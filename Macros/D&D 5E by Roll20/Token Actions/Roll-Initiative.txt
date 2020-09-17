@@ -1,0 +1,1 @@
+@{selected|wtype}&{template:simple} {{rname=^{init-u}}} {{mod=@{selected|initiative_bonus}}} {{r1=[[@{selected|initiative_style}+@{selected|initiative_bonus}@{selected|pbd_safe}[INIT] &{tracker}]]}} {{normal=1}} @{selected|charname_output}

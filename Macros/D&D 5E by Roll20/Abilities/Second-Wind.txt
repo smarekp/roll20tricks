@@ -1,0 +1,1 @@
+@{wtype}&{template:traits} @{charname_output} {{name=@{repeating_traits_$3_name}}} {{source=@{repeating_traits_$3_source}: @{repeating_traits_$3_source_type}}} {{description=@{repeating_traits_$3_description}}}

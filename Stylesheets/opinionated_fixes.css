@@ -1,0 +1,133 @@
+/**
+ *  Marek's User Stylesheet
+ *  FOR URL: https://app.roll20.net/editor/
+ */
+
+/***** Roll20 User Interface *****/
+
+#initiativewindow ul li span.name {
+    padding: 0px 5px;
+}
+
+.player .playername .name {
+    display: block;
+    max-width: 125px;
+    padding: 0px 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tab-pane.attributesabilities .abilities .abil.editing textarea {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+#secondary-toolbar .mode.tokenactions li {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: default;
+}
+#secondary-toolbar .mode.tokenactions li button {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/***** Pathfinder by Roll20 *****/
+
+.charsheet .sheet-traits span.sheet-optional.sheet-inl input.sheet-nospin.sheet-spsml.sheet-center {
+    font-family: 'Times New Roman', 'Patrick Hand', serif;
+    font-size: 13px;
+    vertical-align: baseline;
+}
+
+.sheet-optional.sheet-inl input[type=number] {
+    width: 33px;
+}
+
+.charsheet .sheet-tabmain .sheet-hpinit .sheet-hpvalues.sheet-autoex span[name="attr_dr"],
+.charsheet .sheet-tabmain .sheet-hpinit .sheet-hpvalues.sheet-autoex textarea[name="attr_dr"]{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.charsheet .sheet-conditions-container .sheet-lab.sheet-conditions-display.sheet-conds,
+.charsheet .sheet-conditions-container .sheet-lab.sheet-conditions-display.sheet-buffs {
+    pointer-events: none;
+}
+
+.charsheet .sheet-conditions .sheet-conds .sheet-labelcheck input[type="radio"] + span::before,
+.charsheet .sheet-conditions .sheet-conds .sheet-labelcheck input[type="checkbox"] + span::before {
+    margin-top: -2px;
+}
+
+.charsheet .sheet-conditions .sheet-conds .sheet-labelcheck input[type="number"][name="attr_condition_energy_drained"] {
+    width: 16px;
+    height: 16px;
+    font-size: 1.2em;
+    -moz-appearance: textfield;
+}
+.charsheet .sheet-conditions .sheet-conds .sheet-labelcheck input[type="number"][name="attr_condition_energy_drained"]::-webkit-inner-spin-button,
+.charsheet .sheet-conditions .sheet-conds .sheet-labelcheck input[type="number"][name="attr_condition_energy_drained"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.charsheet .sheet-conditions .sheet-buffs .repcontainer {
+    display: flex;
+    max-width: 444px;
+    flex-wrap: wrap;
+}
+
+.charsheet .sheet-conditions .sheet-buffs .repcontainer .repitem {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+.charsheet .sheet-conditions .sheet-buffs .repcontainer .repitem .sheet-buff .sheet-options-flag + span {
+    top: -4px;
+    left: 0;
+    pointer-events: none;
+}
+
+.charsheet .sheet-gear .sheet-gearitem button[type="compendium"] {
+    display: none !important;
+}
+
+.charsheet .sheet-gear .sheet-gearitem .sheet-options-flag {
+    left: 5px;
+}
+
+.charsheet .sheet-gear .sheet-gearitem .sheet-options-flag + span {
+    left: 5px;
+    pointer-events: none;
+}
+
+/***** D&D 5E by Roll20 *****/
+
+.charsheet .sheet-pc .sheet-global-mod .sheet-active-flag {
+    top: -7px;
+    margin-top: 0px;
+}
+
+.charsheet .sheet-pc .sheet-traits .sheet-display .sheet-desc {
+    display: none;
+}
+
+.charsheet .sheet-pc .sheet-traits .sheet-trait button[name="roll_output"] {
+    top: 3px;
+    right: 24px;
+}
+
+.charsheet .sheet-pc .sheet-traits .sheet-trait .sheet-options-flag,
+.charsheet .sheet-pc .sheet-traits .sheet-trait .sheet-options-flag + span {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.charsheet .sheet-pc .sheet-traits .sheet-trait .sheet-options-flag + span {
+    pointer-events: none;
+}

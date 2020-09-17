@@ -1,0 +1,1 @@
+&{template:default} {{name=Modify Initiative}} {{Character:=@{selected|token_name}}} {{New Initiative:=[[@{cmd|tracker_prefix}@{selected|token_name}}+?{Modifier|0} &{tracker}]]}}

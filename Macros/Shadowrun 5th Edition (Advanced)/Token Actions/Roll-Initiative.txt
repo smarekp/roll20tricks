@@ -1,0 +1,1 @@
+&{template:default} {{name=Roll Initiative}} {{Character:=@{selected|token_name}}} {{Result:=[[?{Dice|1d6}+?{Modifier|0}&{tracker}]]}}

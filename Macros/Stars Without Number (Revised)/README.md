@@ -1,0 +1,2 @@
+# Stars Without Number (Revised)
+[https://github.com/Roll20/roll20-character-sheets/tree/master/Stars_Without_Number_Revised](https://github.com/Roll20/roll20-character-sheets/tree/master/Stars_Without_Number_Revised)

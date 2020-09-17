@@ -1,0 +1,4 @@
+&{template:pc} {{showchar=[[1]]}} {{charname=@{character_name}}} {{name=Channel Energy
+}} {{type=ability}} {{abilitytype=Heal Living}} {{area=30-ft.-radius burst centered on you}} {{descflag=[[1]]}} {{desc=Channeling positive energy causes a burst that heals all living creatures in a 30-foot radius centered on the cleric. The amount of damage healed is equal to 1d6 points of damage plus 1d6 points of damage for every two cleric levels beyond 1st ([[[[floor((@{class2_level}+1)/2)]]d6]]). This is a standard action that does not provoke an attack of opportunity. A cleric can choose whether or not to include herself in this effect.
+
+A cleric must be able to present her holy symbol to use this ability.}}

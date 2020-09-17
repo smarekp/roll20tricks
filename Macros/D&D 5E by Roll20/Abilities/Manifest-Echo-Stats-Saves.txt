@@ -1,0 +1,10 @@
+&{template:npcaction} {{name=@{Veronia's Echo|npc_type}}} {{rname=@{Veronia's Echo|character_name}}} {{description=*Armor Class:*[[14+@{pb}]]
+*Hit Points:*[[1]]
+*Speed:*[[30]]**ft.**
+*—*
+*Strength Save:*[[1d20+@{strength_save_bonus}]]
+*Dexterity Save:*[[1d20+@{dexterity_save_bonus}]]
+*Constitution Save:*[[1d20+@{constitution_save_bonus}]]
+*Intelligence Save:*[[1d20+@{intelligence_save_bonus}]]
+*Wisdom Save:*[[1d20+@{wisdom_save_bonus}]]
+*Charisma Save:*[[1d20+@{charisma_save_bonus}]]}}

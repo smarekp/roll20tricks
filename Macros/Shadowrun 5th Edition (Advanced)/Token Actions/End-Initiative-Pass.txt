@@ -1,0 +1,1 @@
+&{template:default} {{name=End Initiative Pass}} {{Character:=@{selected|token_name}}} {{New Initiative:=[[@{cmd|tracker_prefix}@{selected|token_name}}-10 &{tracker}]]}}
