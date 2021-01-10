@@ -131,3 +131,8 @@
 .charsheet .sheet-pc .sheet-traits .sheet-trait .sheet-options-flag + span {
     pointer-events: none;
 }
+
+.charsheet .sheet-pc .sheet-equipment .sheet-money .sheet-coin:nth-child(3) {
+    /* hides electrum pieces */
+    display: none !important;
+}
